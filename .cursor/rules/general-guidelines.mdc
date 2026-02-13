@@ -1,0 +1,7 @@
+---
+alwaysApply: true
+---
+- Always use Chakra UI components
+- Always use Tailwind for styling
+- Follow component naming conventions, consitent across all components
+- Always avoid duplicate code logic, create custom components, modules, to make it generic as applicable

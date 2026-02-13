@@ -1,0 +1,9 @@
+#!/bin/sh
+set -e
+
+# Run checks for the frontend app
+npm --prefix frontend run typecheck
+npm --prefix frontend run lint
+npm --prefix frontend run test -s
+npm --prefix frontend run format
+
